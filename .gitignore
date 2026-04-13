@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+**/.gradle/
+**/build/
+**/node_modules/
+**/dist/
+.vscode/
+.idea/
+.DS_Store
