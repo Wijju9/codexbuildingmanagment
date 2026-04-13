@@ -1,0 +1,13 @@
+<main class="dashboard">
+  <header>
+    <h1>Paying Guest Management</h1>
+    <p>Single page operational dashboard for properties and residents.</p>
+  </header>
+
+  <section class="metric-grid">
+    <article *ngFor="let metric of metrics$ | async" class="metric-card">
+      <h2>{{ metric.label }}</h2>
+      <p>{{ metric.value }}</p>
+    </article>
+  </section>
+</main>
